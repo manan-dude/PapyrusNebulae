@@ -43,6 +43,7 @@ npm install @adobe/pdfservices-node-sdk
 # UI
 ![](WebApp.png)
 ![](fill.png)
+![](Image.png)
 4. To generate a resume using the user interface (UI):
 - Open a web browser and navigate to `http://localhost:3001` (or the specified port).
 - Fill out the form with your resume information.
