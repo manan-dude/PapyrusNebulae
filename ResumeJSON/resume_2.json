@@ -1,0 +1,45 @@
+{
+  "Name": "Manan",
+  "LastName": "Jain",
+  "JobTitle": "SDE",
+  "EmailAddress": "xyz@gmail.com",
+  "PhoneNumber": "91324xxxxx",
+  "LinkedIn": "<a href=\"abc.com\">LinkedIn</a>",
+  "Summary": "Software Developer that can solve real world problems using his Knowledge and skills",
+  "ContentBlock": "<img src=\"https://icons.iconarchive.com/icons/graphicloads/flat-finance/256/person-icon.png\">",
+  "template_id": "3",
+  "Skills": [
+    "c",
+    "c++",
+    "python",
+    "java",
+    "html",
+    "nodejs",
+    "css",
+    "javascript"
+  ],
+  "Achievements": [
+    {
+      "Type": "Badminton",
+      "Description": "National Level"
+    },
+    {
+      "Type": "Hackathon",
+      "Description": "Stood 1st"
+    }
+  ],
+  "Education": [
+    {
+      "SchoolName": "ju",
+      "Year": "2020 - 2024",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat turpis, aliquam sed ex sed, sodales lobortis dui. Maecenas molestie ac quam eu pharetra. Aliquam pretium bibendum luctus"
+    }
+  ],
+  "Experience": [
+    {
+      "CompanyName": "asd",
+      "Year": "2023 - 2026",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat turpis, aliquam sed ex sed, sodales lobortis dui. Maecenas molestie ac quam eu pharetra. Aliquam pretium bibendum luctus"
+    }
+  ]
+}

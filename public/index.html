@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts - inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "/css/style.css">
+
+    <style>
+     
+
+    </style>
+</head>
+<body>
+    
+    <header class = "header">
+        <nav class = "navbar navbar-expand-lg navbar-light bg-secondary">
+            <div class="container">
+                <a class = "navbar-brand fw-bold fs-2" href = "index.html">
+                    <span>
+                        <i class = "fa-solid fa-file-invoice"></i>
+                    </span>
+                    <span class = "navbar-brand-text">Resume</span> BUILDER
+                </a>
+                <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbarContent" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class = "collapse navbar-collapse" id = "navbarContent">
+                    <ul class = "navbar-nav ms-auto">
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle text-blue fs-18" href = "#" id = "navbarDropdown" role = "button" data-bs-toggle="dropdown" aria-expanded="false">Resume Templates_id Availlable</a>
+                            <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class = "dropdown-item" href = "#template">1(Basic)</a>
+                                </li>
+                                <li>
+                                  <a class = "dropdown-item" href = "#template">2(Link)</a>
+                              </li>
+                                <li>
+                                    <a class = "dropdown-item" href = "#template">3(Image)</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                   
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-banner" >
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class = "row text-center justify-content-center" >
+                 
+                  <h1>
+                    <span id='text'></span>
+                  </h1>
+                      
+
+                    
+                    <p class = "text-grey fs-4 mt-3 mb-5">Easy to use.<br> Time-saver.<br> Professional.<br></p>
+
+                    
+               
+                   <a href="#template"><button class = "btn btn-lg text-capitalize btn-primary btn-banner fs-4"><b>START!<b></button></a>
+                </div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_9rfdfjek.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;" class="center"  loop  autoplay></lottie-player>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class = "steps py-8">
+            <div class="container">
+                <div class = "row section-title text-center">
+                
+                    <div class = "col-12">
+                        <h2 class = "display-6 text-blue fw-bold">Create your perfect Resume with easy steps</h2>
+                        <p class = "text-grey fs-4 my-4 mx-auto">Effortlessly make a job-worthy resume and cover letter that gets you hired faster.</p>
+                    </div>
+
+                    <img src="https://cdn.dribbble.com/users/99875/screenshots/2233101/portal_black.gif" alt="">
+                </div>
+
+                <div class = "row steps-list">
+                    <div class = "steps-item col-lg-6 col-xl-4 text-center text-md-start my-4 d-md-flex align-items-md-center">
+                        <div class = "steps-item-icon text-white bg-light-blue d-flex align-items-center justify-content-center mx-auto ms-md-0 me-md-5 me-lg-4">
+                            <i class = "fa-solid fa-layer-group fa-2x"></i>
+                        </div>
+                        <div class="steps-item-text mt-4">
+                          
+                            <h3 class = "fs-3 fw-4 text-blue">Choose your CV template</h3>
+                            <p style="font-style: oblique; color: #fff;">Pick a template and color of your choice from a variety of professional templates.</p>
+                        </div>
+                    </div>
+
+                    <div class = "steps-item col-lg-6 col-xl-4 text-center text-md-start my-4 d-md-flex align-items-md-center">
+                        <div class = "steps-item-icon text-white bg-light-blue d-flex align-items-center justify-content-center mx-auto ms-md-0 me-md-5 me-lg-4">
+                            <i class = "fa-solid fa-file-lines fa-2x"></i>
+                        </div>
+                        <div class="steps-item-text mt-4">
+                            <h3 class = "fs-3 fw-4 text-blue">Place Your Information</h3>
+                            <p style="font-style: oblique;color: #fff;">Keep track of your CV with the help of live preview.</p>
+                        </div>
+                    </div>
+
+                    <div class = "steps-item col-lg-6 col-xl-4 text-center text-md-start my-4 d-md-flex align-items-md-center">
+                        <div class = "steps-item-icon text-white bg-light-blue d-flex align-items-center justify-content-center mx-auto ms-md-0 me-md-5 me-lg-4">
+                            <i class = "fa-solid fa-download fa-2x"></i>
+                        </div>
+                        <div class="steps-item-text mt-4">
+                            <h3 class = "fs-3 fw-4 text-blue">Instantly download your CV</h3>
+                            <p style="font-style: oblique; color: #fff;;">Easily download your CV as a PDF and share it via a link.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "templates py-8 bg-secondary" id="template">
+          
+            <div class = "container" >
+                <div class = "row section-title text-center mb-5">
+                 
+                    <div class = "col-12">
+
+                        <h2 class = "display-6 text-blue fw-bold">Here are the Best Templates for you</h2>
+                        <p class = "text-grey fs-4 my-4 mx-auto">A great job application leads to a good interview. An amazing resume is what makes it all possible.</p>
+                    </div>
+                </div>
+
+                <div class = "row templates-list gy-5 gx-lg-5">
+                    <div class = "templates-item position-relative col-lg-6">
+                        <div class = "template-item-img mx-auto me-lg-0 position-relative">
+                            <img src = "\images\Basic.png" alt = "" class = "img-fluid">
+                            <a href = "#footresume" class = "btn btn-lg btn-primary position-absolute choose-template-btn">Select Template 1</a>
+                        </div>
+                    </div>
+
+                   
+                    <div class = "templates-item position-relative col-lg-6">
+                      <div class = "template-item-img mx-auto ms-lg-0 position-relative">
+                          <img src = "/images/Image.png" alt = "" class = "img-fluid">
+                          <a href = "#footresume" class = "btn btn-lg btn-primary position-absolute choose-template-btn">Select Template 3</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class = "pt-5" id="footresume">
+      <div class = "row section-title text-center">
+      <div class = "col-12">
+       
+        <h2 class = "display-6 text-blue fw-bold">Fill Your Details</h2>
+        
+        <h2 style="color: #3030ea;"><span style="color: #fff;">Hover</span> over the image for tips. Simply click on the <span style="color: #fff;">Submit Button</span> and explore your <span style="color: #fff;">Folder</span> for pdf.</h2>
+        <img src="/images/scanner.gif">
+    </div>
+    </div>
+
+      <form id="ResumeForm" method="POST">
+
+        
+    <label for="template_id">Template number:</label>
+    <div class="container">
+      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/cv-6617242-5501765.png?f=webp" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Select the template_id(1,2,3)</div>
+      </div>
+    </div>
+    
+    <input type="text" id="template_id" value = 1  name="template_id" required>
+
+    <label for="NameInput"><h2>Personal Details:</h2></label>
+   
+    <div class="container">
+      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/personal-data-security-7948422-6360844.png" alt="Avatar" class="image">
+      <div class="overlay" >
+        <div class="text">Enter details like name, email, phone...</div>
+      </div>
+    </div>
+    <label for="NameInput">Name:</label>
+    <input type="text" id="NameInput" name="Name" required>
+    <label for="LastNameInput">LastName:</label>
+    <input type="text" id="LastNameInput" name="LastName" required>
+    <label for="JobTitleInput">JobTitle:</label>
+    <input type="text" id="JobTitleInput" name="JobTitle" required>
+    <label for="EmailAddressInput">EmailAddress:</label>
+    <input type="text" id="EmailAddressInput" name="EmailAddress" required>
+    <label for="PhoneNumberInput">PhoneNumber:</label>
+    <input type="text" id="PhoneNumberInput" name="PhoneNumber" required>
+    <label for="LinkedInInput">LinkedIn:</label>
+    <input type="text" id="LinkedInInput" name="LinkedIn" required>
+
+
+    <label for="SummaryInput"><h2>Career Objective:</h2></label>
+     
+    <div class="container">
+      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/business-presentation-4646144-3893388.png?f=webp" alt="Avatar" class="image">
+      <div class="overlay" >
+        <div class="text">Writing Career Objective helps to get attention and clarity</div>
+      </div>
+    </div>
+
+    <input type="text" id="SummaryInput" name="Summary" required>
+
+
+    <label for="ContentBlockInput"><h2>"Profile Pic:"</h2></label>
+
+    <label for="ContentBlockInput">Img _url(only for template 3):</label>
+    <input type="text" id="ContentBlockInput" name="ContentBlock" required>
+    <label for="SkillsInput"><h2>Skills:</h2></label>
+    <div class="container">
+      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/businesswoman-doing-multitasking-6615668-5537784.png?f=webp" alt="Avatar" class="image">
+      <div class="overlay" >
+        <div class="text">Enter With commas like C,C++,Java</div>
+      </div>
+    </div>
+    <input type="text" id="SkillsInput"onchange="myChangeFunction(this)" placeholder="C,C++,Java" name="Skills" required>
+
+    <div id="achievementsSection">
+        <div class="achievement">
+        <label for="AchievementTypeInput"><h2>Achievements:</h2></label>
+        <div class="container">
+          <img src="https://static.vecteezy.com/system/resources/previews/010/915/889/original/gold-winner-trophy-3d-icon-or-3d-success-gold-trophy-with-name-plate-free-png.png" alt="Avatar" class="image">
+          <div class="overlay" >
+            <div class="text">Add more than one Achievements</div>
+          </div>
+        </div>
+        <input type="text"  onchange="myChangeFunction(this)" placeholder="Achievement Field"  name="AchievementType" required>       
+        <input type="text"  onchange="myChangeFunction(this)" placeholder="Achievement Description" name="AchievementDescription" required>
+      </div>      
+    </div>
+    <button type="button" onclick="addAchievement()">Add Achievement</button>
+    <br>
+    <br>
+
+
+    <div id ="educationSection">
+      <div class="education">
+        <label for="AchievementTypeInput"><h2>Education:</h2></label>
+        <div class="container">
+          <img src="https://cdn3d.iconscout.com/3d/premium/thumb/education-7092162-5753353.png" alt="Avatar" class="image">
+          <div class="overlay" >
+            <div class="text">Date will be formatted in resume</div>
+          </div>
+        </div>
+
+        <input type="text" onchange="myChangeFunction(this)" placeholder="School Name" name="SchoolName" required>
+        <input type="text" onchange="myChangeFunction(this)" placeholder="Start Year" name="StartYear" required>
+        <input type="text" onchange="myChangeFunction(this)" placeholder="End Year" name="EndYear" required>
+        <input type="text" onchange="myChangeFunction(this)" placeholder="Description" name="Description" required>
+      </div>
+    </div>
+      <button type="button" onclick="addEducation()">Add Education</button>
+      <br>
+      <br>
+
+    
+      <div id ="experienceSection">
+        <div class="experience">
+          <label for="AchievementTypeInput"><h2>Experience:</h2></label>
+          <div class="container">
+            <img src="https://static.vecteezy.com/system/resources/previews/009/636/769/original/experience-3d-icon-png.png" alt="Avatar" class="image">
+            <div class="overlay" >
+              <div class="text">Add job roles in the Description</div>
+            </div>
+          </div>
+  
+
+          <input type="text" onchange="myChangeFunction(this)" placeholder="Company Name" name="CompanyName" required>
+          <input type="text" onchange="myChangeFunction(this)" placeholder="Start Year" name="StartYear1" required>
+          <input type="text" onchange="myChangeFunction(this)" placeholder="End Year" name="EndYear1" required>
+          <input type="text" onchange="myChangeFunction(this)" placeholder="Description" name="Description1" required>
+        </div>
+      </div>
+        <button type="button" onclick="addExperience()">Add Experience</button>
+        <br>
+        <br>
+
+        <div class="container">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/023/561/263/small/3d-illustration-of-hand-click-shopping-basket-for-online-shopping-website-display-element-png.png" alt="Avatar" class="image">
+          <div class="overlay" >
+            <div class="text"><h2>Click on Submit Button and Wait for the output message.</h2></div>
+          </div>
+        </div>
+
+   
+      <button type="submit"><b>Submit</b></button>
+
+     
+    
+  </form>
+
+  <div id="resultContainer">
+    <h2>Output:</h2>
+  </div> 
+    </footer>
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="/js/jsFile.js"></script>
+    <script src="js/Data.js"></script>
+
+
+   
+</body>
+</html>

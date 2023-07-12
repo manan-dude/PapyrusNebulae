@@ -1,0 +1,45 @@
+{
+  "Name": "John",
+  "LastName": "Doe",
+  "JobTitle": "Software Engineer",
+  "EmailAddress": "john@example.com",
+  "PhoneNumber": "92123223",
+  "LinkedIn": "<a href=\"https://www.linkedin.com/in/johndoe\">LinkedIn</a>",
+  "Summary": "Experienced software engineer with expertise in web development.",
+  "ContentBlock": "<img src=\"https://documentcloud.adobe.com/dc-docgen-app/assets/dc_icon.png\">",
+  "template_id": "3",
+  "Skills": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "Achievements": [
+    {
+      "Type": "Certification",
+      "Description": "Received certification for completing a web development course."
+    },
+    {
+      "Type": "Award",
+      "Description": "Received an award for outstanding performance in software development."
+    }
+  ],
+  "Education": [
+    {
+      "SchoolName": "University of XYZ",
+      "Year": "2015 - 2019",
+      "Description": "Bachelor's degree in Computer Science"
+    }
+  ],
+  "Experience": [
+    {
+      "CompanyName": "ABC Company",
+      "Year": "2019 - 2022",
+      "Description": "Worked as a software engineer, developed web applications."
+    },
+    {
+      "CompanyName": "XYZ Corporation",
+      "Year": "2022 - Present",
+      "Description": "Currently working as a senior software engineer, leading a team of developers."
+    }
+  ]
+}
