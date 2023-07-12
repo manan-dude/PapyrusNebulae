@@ -34,7 +34,7 @@ npm install @adobe/pdfservices-node-sdk
 
 2. The server will start running and will be listening on the specified port (default is port 3001).
 3. To generate a resume using the command-line interface (CLI):
-- Execute the following curl command in your terminal(CMD only):
+- Execute the following curl command in your terminal (CMD only):
   ```
   curl -X POST -H "Content-Type: application/json" --data @SampleData.json http://localhost:3001/resume
   ```
