@@ -39,6 +39,9 @@ npm install @adobe/pdfservices-node-sdk
   curl -X POST -H "Content-Type: application/json" --data @SampleData.json http://localhost:3001/resume
   ```
   Note: Replace `SampleData.json` with your own resume data file or modify the content of `SampleData.json` to match your resume entries.
+
+# UI
+!(WebApp.png)
 4. To generate a resume using the user interface (UI):
 - Open a web browser and navigate to `http://localhost:3001` (or the specified port).
 - Fill out the form with your resume information.
