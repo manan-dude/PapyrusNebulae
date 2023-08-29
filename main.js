@@ -16,8 +16,8 @@ const PORT = 3001;
 // Set up our credentials object.
 const credentials =  PDFServicesSdk.Credentials
         .servicePrincipalCredentialsBuilder()
-        .withClientId("5fec992fe1bb4f3c9cf02f69d38093f9")
-        .withClientSecret("p8e-9_NV6Ok3mgB07D0uSyryHdyMAo_Xxj_u")
+        .withClientId("ClientIdAdobe")
+        .withClientSecret("ClientSecretAdobe")
         .build();
 
 const path = require('path');
